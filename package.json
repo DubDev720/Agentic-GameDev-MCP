@@ -1,0 +1,23 @@
+{
+  "name": "agentic-gamedev-mcp",
+  "version": "0.1.0",
+  "description": "Agentic GameDev MCP scaffold integrating Warp Agent, BMAD-METHOD, and Unity MCP.",
+  "main": "integrations/bmad_method/orchestrator.js",
+  "scripts": {
+    "start": "node integrations/bmad_method/orchestrator.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "validate": "python3 scripts/validate.py"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT"
+}

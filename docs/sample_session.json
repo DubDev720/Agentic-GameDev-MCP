@@ -1,0 +1,60 @@
+{
+  "session": "demo-run-001",
+  "steps": [
+    {
+      "timestamp": "2025-08-21T12:00:00Z",
+      "direction": "send",
+      "message": {
+        "action": "update_gameobject",
+        "payload": {
+          "instanceId": 42,
+          "name": "TestCube",
+          "tag": "Player",
+          "layer": 0,
+          "isActiveSelf": true,
+          "isStatic": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-21T12:00:01Z",
+      "direction": "receive",
+      "message": {
+        "success": true,
+        "message": "GameObject updated",
+        "object": {
+          "instanceId": 42,
+          "name": "TestCube",
+          "tag": "Player",
+          "layer": 0,
+          "isActiveSelf": true,
+          "isStatic": false
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-21T12:00:02Z",
+      "direction": "send",
+      "message": {
+        "action": "get_assets",
+        "payload": {
+          "assetType": "Prefab",
+          "searchPattern": "Cube"
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-21T12:00:03Z",
+      "direction": "receive",
+      "message": {
+        "success": true,
+        "assets": [
+          {
+            "guid": "a1b2c3",
+            "path": "Assets/Prefabs/TestCube.prefab"
+          }
+        ]
+      }
+    }
+  ]
+}
