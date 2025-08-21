@@ -1,7 +1,9 @@
 /**
  * orchestrator.js
  * BMAD Orchestrator: parses BMAD configs and dispatches tasks to Warp/Unity MCP.
+ * Node.js side (lightweight) used for JS-based orchestration or tooling.
  */
+
 import fs from "fs";
 import yaml from "js-yaml";
 
@@ -21,5 +23,5 @@ export function orchestrate(teamConfig) {
     return;
   }
   console.log("BMAD Orchestration started:", teamConfig);
-  // TODO: Map roles → Unity MCP calls
+  // TODO: Map roles → Unity MCP calls (this is a stub for Node-based orchestration)
 }

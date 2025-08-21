@@ -2,6 +2,7 @@
 update_gameobject_request.py
 Python model for UpdateGameObjectRequest (mirrors Unity MCP C#).
 """
+
 from dataclasses import dataclass, asdict
 from typing import Optional
 

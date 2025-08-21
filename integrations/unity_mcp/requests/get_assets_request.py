@@ -2,6 +2,7 @@
 get_assets_request.py
 Request model for GetAssetsResource.
 """
+
 from dataclasses import dataclass, asdict
 from typing import Optional
 

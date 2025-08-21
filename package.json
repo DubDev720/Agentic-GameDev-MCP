@@ -7,7 +7,7 @@
     "start": "node integrations/bmad_method/orchestrator.js",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "validate": "python3 scripts/validate.py"
+    "validate": "python scripts/validate.py"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
