@@ -1,6 +1,6 @@
 # Agentic GameDev MCP
 
-![CI](https://github.com/your-username/Agentic-GameDev-MCP/actions/workflows/ci.yaml/badge.svg)
+![CI](https://github.com/DubDev720/Agentic-GameDev-MCP/actions/workflows/ci.yaml/badge.svg)
 
 Central hub integrating **Warp Agent**, **BMAD-METHOD**, and **Unity MCP** for AI-assisted game development.
 
