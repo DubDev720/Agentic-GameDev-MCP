@@ -1,3 +1,7 @@
+# bmad_integration.yaml
+# Maps BMAD agent teams to Unity MCP endpoints.
+# Extend with roles, workflows, and orchestration logic.
+
 teams:
   - name: "team-fullstack"
     roles:

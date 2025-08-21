@@ -1,4 +1,9 @@
+# docker-compose.yaml
+# Orchestration for Agentic GameDev MCP.
+# Unity MCP Editor must be run separately on host.
+
 version: "3.9"
+
 services:
   agentic-mcp:
     build: .
@@ -6,7 +11,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "8080:8080"
+      - "8080:8080"   # Unity MCP WebSocket
     environment:
       - PYTHONUNBUFFERED=1
       - NODE_ENV=development
